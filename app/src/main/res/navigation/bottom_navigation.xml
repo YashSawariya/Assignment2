@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.assignment.HomeFreagment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/showcase"
+        android:name="com.example.assignment.ShowcaseFragment.ShowcaseFragment"
+        android:label="Showcase"
+        tools:layout="@layout/fragment_showcase"/>
+    <fragment
+        android:id="@+id/features"
+        android:name="com.example.assignment.FraturesFragment.FeaturesFragment"
+        android:label="Features"
+        tools:layout="@layout/fragment_features"/>
+    <fragment
+        android:id="@+id/faq"
+        android:name="com.example.assignment.FAQFragment.FAQFragment"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_f_a_q"/>
+    <fragment
+        android:id="@+id/pricing"
+        android:name="com.example.assignment.PricingFragment.PricingFragment"
+        android:label="Pricing"
+        tools:layout="@layout/fragment_pricing"/>
+</navigation>
